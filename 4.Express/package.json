@@ -1,0 +1,17 @@
+{
+  "name": "4.Express",
+  "version": "1.0.0",
+  "description": "(Docs of Express)[https://expressjs.com/]\r - is a web application framework for Node.js.\r - It is designed to simplify the process of building robust and scalable web applications and APIs. \r - Express provides a minimal and flexible set of features for web and mobile application development and is known for its simplicity and performance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}

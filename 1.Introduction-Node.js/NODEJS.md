@@ -1,5 +1,11 @@
 ## What is JavaScript?
--
+- is both synchronous and asynchronous and its ability to handle asynchronous operation is a crucial aspect of its desingd (using event loop whick makes it asynchronous)
+  
+- Single threaded --> execuation stack -->execute one thing/task at a time
+  
+- dynamically types --> data types checked at runtime not at compile time
+  
+- concurrent language -->
 
 ## Topics 
 1. Node.js - Using differnet node modules
@@ -41,6 +47,8 @@
     - os.cpus()
     - os.hostname()
 
+2. File System
+   - const fs = require('fs')
 
 
 
@@ -49,3 +57,8 @@
  - E -->Evaluate
  - P -->Print
  - L -->Loop
+
+
+
+----
+

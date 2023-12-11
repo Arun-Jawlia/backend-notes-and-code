@@ -1,0 +1,3 @@
+Hello this is wrting file in write.txtThis is from appendFile 
+ + This is from appendFile 
+  This is from appendFile  

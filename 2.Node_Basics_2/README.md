@@ -34,11 +34,16 @@
 
 - npm init is a command in Node.js that is used to initialize a new Node.js project and create a package.json file. 
   
--The package.json file is a metadata file for your project, and it contains important information such as project name, version, description, entry point, test command, repository, dependencies, and more.
+- The package.json file is a metadata file for your project, and it contains important information such as project name, version, description, entry point, test command, repository, dependencies, and more.
  
 
 
 
 
 
-# 
+## File System (fs module)
+- const fs = require('fs') -->Import file system (fs) library
+  
+  1. readFile vs readFileSync
+  2. writeFile vs writeFileSync
+  3. appendFile
