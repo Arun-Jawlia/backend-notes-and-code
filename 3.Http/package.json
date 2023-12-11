@@ -1,0 +1,16 @@
+{
+  "name": "3.http",
+  "version": "1.0.0",
+  "description": "- The client-server model is a distributed computing architecture that divides the responsibilities and tasks between two types of entities: clients and servers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

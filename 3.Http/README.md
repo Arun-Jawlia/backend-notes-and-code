@@ -47,17 +47,6 @@ Examples:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 # HTTP and HTTPS
 
 **HTTP** (Hypertext Transfer Protocol) and **HTTPS**(Hypertext Transfer Protocol Secure) are protocols used for communication between a client (typically a web browser) and a server over a computer network. They are the foundation of data communication on the World Wide Web.
@@ -128,3 +117,61 @@ URL Format: URLs for HTTPS start with https://.
 2. Server acknowledge it's client intent ( Synchronize-Acknowledge )
    
 3. Client says - its's what I want ( Acknowledge )
+
+
+
+
+
+
+## HTTP Verbs/Method 
+1. GET -to get/read something on the server
+2. PUT -replace the whole thing
+3. PATCH -modify - will modify the specific thing in the whole thing
+4. DELETE - to delete on the server
+5. POST - to add/post/share one the server
+
+
+
+
+## Nodemon : helps restart server again again if made changes in the selected file
+
+
+
+
+## HTTP Statuses
+- Every HTTP request returns a response code in return. 
+- The codes are never random. they always have meanings. 
+- eg, 404 Not Found the most widely used status code. that means, if client request for a 'resource' and if it doesn't exist on server, server will send a status code 404. now client doesn't need to parse any other information. by just looking at this statuscode client knows that server couldn't find the requested entity.
+
+- The codes always lie in some range. 100-199: 
+  1. Information Content. eg: 100: Continue
+  2. 200-299: Success. Eg: 200: OK, 201: Created 
+  3. 300-399: Redirection. Eg: 307: Temporary Redirect
+  4. 400-499: Client Error. eg: 403:Forbidden, 404: Not found, 400: Bad request
+  5.   500-599: Server Error. eg: 500: Internal Server Error
+
+All these statuses are really helpful to understand what exactly happened with the requested resource.
+
+
+## Headers
+Every single request and Every single response has 'headers' properties. a header is nothing but a key value pair that represents more information about request or response itself.
+
+Eg: if a server sending following response back: Hello world. server can send an header content-type with it. if the value of content-type is text/plain the client who received the reponse will now know that it has received plain text reponse and it doesn't need to parse it etc.
+
+
+
+
+# BenchMarking 
+
+  - Benchmarking is the process of evaluating the performance of a system, component, or process by comparing it against a set of standard metrics or the performance of other systems or components.
+  
+  -  The goal of benchmarking is to assess and measure the capabilities, efficiency, and reliability of a system, often in the context of software development, hardware performance, or overall system functionality.
+  
+  -   It helps in identifying areas for improvement and making informed decisions based on performance data.
+
+- Testing the limits of the something
+- Request per second - Load on the server
+- Use  `AutoCannon`  to do benchmarking
+
+### How to Execute **AutoCannon** or **Benchmarking**
+1. `npx autocannon http-url`
