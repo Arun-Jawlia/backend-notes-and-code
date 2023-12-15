@@ -143,8 +143,8 @@ URL Format: URLs for HTTPS start with https://.
 - The codes are never random. they always have meanings. 
 - eg, 404 Not Found the most widely used status code. that means, if client request for a 'resource' and if it doesn't exist on server, server will send a status code 404. now client doesn't need to parse any other information. by just looking at this statuscode client knows that server couldn't find the requested entity.
 
-- The codes always lie in some range. 100-199: 
-  1. Information Content. eg: 100: Continue
+- The codes always lie in some range. 
+  1. 100-199: Information Content. eg: 100: Continue ()
   2. 200-299: Success. Eg: 200: OK, 201: Created 
   3. 300-399: Redirection. Eg: 307: Temporary Redirect
   4. 400-499: Client Error. eg: 403:Forbidden, 404: Not found, 400: Bad request
